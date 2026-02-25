@@ -33,7 +33,7 @@ const values = [
     title: "What Separates Us",
     description:
       "We prioritise delivering client-centric, actionable data-driven solutions. We are small enough to care and nimble enough to adapt, yet always remaining focused on long-term objectives.",
-    color: "bg-blue-50 text-blue-600",
+    color: "bg-red-50 text-[#EC3236]",
   },
   {
     icon: Gem,
@@ -47,7 +47,7 @@ const values = [
     title: "People First",
     description:
       "We believe in being around people who are good for your soul. Our culture fosters collaboration, continuous learning, and mutual respect across every project.",
-    color: "bg-indigo-50 text-indigo-600",
+    color: "bg-red-50 text-[#EC3236]",
   },
   {
     icon: Handshake,

@@ -17,7 +17,7 @@ const services = [
     title: "Data Warehouse",
     description:
       "We build robust data warehouses tailored to your specific business needs, from first-time implementations to enterprise-scale solutions.",
-    color: "bg-blue-50 text-blue-600",
+    color: "bg-red-50 text-red-600",
   },
   {
     icon: Rocket,

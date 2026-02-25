@@ -10,33 +10,33 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.55 0.19 255);
+  --primary: #EC3236;
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.96 0.01 255);
-  --secondary-foreground: oklch(0.25 0.05 255);
-  --muted: oklch(0.96 0.005 255);
-  --muted-foreground: oklch(0.5 0.02 255);
-  --accent: oklch(0.94 0.02 255);
-  --accent-foreground: oklch(0.25 0.05 255);
+  --secondary: oklch(0.96 0.01 25);
+  --secondary-foreground: oklch(0.3 0.08 25);
+  --muted: oklch(0.96 0.005 25);
+  --muted-foreground: oklch(0.5 0.02 25);
+  --accent: oklch(0.95 0.02 25);
+  --accent-foreground: oklch(0.3 0.08 25);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.92 0.005 255);
-  --input: oklch(0.92 0.005 255);
-  --ring: oklch(0.55 0.19 255);
-  --chart-1: oklch(0.55 0.19 255);
-  --chart-2: oklch(0.65 0.15 200);
-  --chart-3: oklch(0.45 0.12 255);
-  --chart-4: oklch(0.7 0.1 180);
-  --chart-5: oklch(0.6 0.18 230);
+  --border: oklch(0.92 0.005 25);
+  --input: oklch(0.92 0.005 25);
+  --ring: #EC3236;
+  --chart-1: #EC3236;
+  --chart-2: oklch(0.65 0.15 15);
+  --chart-3: oklch(0.45 0.18 25);
+  --chart-4: oklch(0.7 0.1 35);
+  --chart-5: oklch(0.6 0.2 20);
   --radius: 0.75rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.55 0.19 255);
+  --sidebar-primary: #EC3236;
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.94 0.02 255);
-  --sidebar-accent-foreground: oklch(0.25 0.05 255);
-  --sidebar-border: oklch(0.92 0.005 255);
-  --sidebar-ring: oklch(0.55 0.19 255);
+  --sidebar-accent: oklch(0.95 0.02 25);
+  --sidebar-accent-foreground: oklch(0.3 0.08 25);
+  --sidebar-border: oklch(0.92 0.005 25);
+  --sidebar-ring: #EC3236;
 }
 
 @theme inline {
@@ -156,10 +156,10 @@
 
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 20px oklch(0.55 0.19 255 / 0.15);
+    box-shadow: 0 0 20px #EC323626;
   }
   50% {
-    box-shadow: 0 0 40px oklch(0.55 0.19 255 / 0.3);
+    box-shadow: 0 0 40px #EC32364D;
   }
 }
 
