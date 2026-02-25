@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BarChart3, Mail, MapPin, Phone } from "lucide-react"
+import { Rocket, Mail, MapPin, Phone } from "lucide-react"
 
 const footerLinks = {
   company: [
@@ -25,7 +25,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 group">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                <BarChart3 className="h-5 w-5" />
+                <Rocket className="h-5 w-5" />
               </div>
               <span className="text-xl font-bold tracking-tight text-foreground">
                 Brillytics

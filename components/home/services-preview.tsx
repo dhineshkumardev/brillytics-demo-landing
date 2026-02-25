@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import {
   ArrowRight,
   Database,
-  BarChart3,
+  Rocket,
   LineChart,
   Workflow,
 } from "lucide-react"
@@ -20,7 +20,7 @@ const services = [
     color: "bg-blue-50 text-blue-600",
   },
   {
-    icon: BarChart3,
+    icon: Rocket,
     title: "Data Visualisation",
     description:
       "Transform your data into visually compelling business stories using world-class tools like Power BI, Tableau and QlikView.",

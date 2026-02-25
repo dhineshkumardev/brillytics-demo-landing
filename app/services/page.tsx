@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import {
   ArrowRight,
   Database,
-  BarChart3,
+  Rocket,
   LineChart,
   Workflow,
   Check,
@@ -34,7 +34,7 @@ const services = [
     accentBg: "bg-blue-50/50",
   },
   {
-    icon: BarChart3,
+    icon: Rocket,
     title: "Data Visualisation",
     tagline: "Bring your data stories to life",
     description:
@@ -84,7 +84,7 @@ const services = [
 ]
 
 const platforms = [
-  { name: "Power BI", icon: BarChart3 },
+  { name: "Power BI", icon: Rocket },
   { name: "Tableau", icon: Layers },
   { name: "QlikView", icon: Globe },
   { name: "Google Analytics", icon: LineChart },

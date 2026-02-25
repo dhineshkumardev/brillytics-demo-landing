@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { Menu, X, BarChart3 } from "lucide-react"
+import { Menu, X, Rocket } from "lucide-react"
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -43,7 +43,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground transition-transform duration-300 group-hover:scale-110">
-            <BarChart3 className="h-5 w-5" />
+            <Rocket className="h-5 w-5" />
           </div>
           <span className="text-xl font-bold tracking-tight text-foreground">
             Brillytics

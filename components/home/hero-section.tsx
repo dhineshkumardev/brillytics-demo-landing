@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play, BarChart3, TrendingUp, Database, Shield } from "lucide-react"
+import { ArrowRight, Play, Rocket, TrendingUp, Database, Shield } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -25,7 +25,7 @@ export function HeroSection() {
         <div className="flex flex-col items-center">
           <div className="w-full max-w-4xl text-center">
             <div className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary">
-              <BarChart3 className="h-4 w-4" />
+              <Rocket className="h-4 w-4" />
               Brilliant Analytics, The Clever Way
             </div>
 
