@@ -20,10 +20,10 @@ export function CtaSection() {
                 backgroundSize: "24px 24px",
               }}
             />
-            <div className="absolute -top-24 -right-24 h-100 w-100 rounded-full bg-primary/20 blur-3xl" />
-            <div className="absolute -bottom-24 -left-24 h-100 w-100 rounded-full bg-primary/20 blur-3xl" />
-             <div className="absolute top-0 -right-50 h-100 w-100 rounded-full bg-primary/20 blur-3xl" />
-             <div className="absolute bottom-0 -left-50 h-100 w-100 rounded-full bg-primary/20 blur-3xl" />
+            <div className="absolute -top-24 -right-24 h-100 w-100 rounded-full bg-primary/30 blur-3xl" />
+            <div className="absolute -bottom-24 -left-24 h-100 w-100 rounded-full bg-primary/30 blur-3xl" />
+             {/* <div className="absolute top-0 -right-50 h-100 w-100 rounded-full bg-primary/40 blur-3xl" />
+             <div className="absolute bottom-0 -left-50 h-100 w-100 rounded-full bg-primary/40 blur-3xl" /> */}
 
             <div className="relative z-10">
               <div className="inline-flex items-center gap-2 rounded-full bg-primary/60 px-4 py-1.5 text-sm font-medium text-primary-foreground/80 mb-6">
