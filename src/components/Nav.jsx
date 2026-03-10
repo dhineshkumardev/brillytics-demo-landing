@@ -35,7 +35,6 @@ export default function Nav() {
                 to={to}
                 className={`nav-link nav-pill ${isActive ? "active" : ""}`}
               >
-                <span className={`nav-dot ${isActive ? "active" : ""}`} aria-hidden="true" />
                 {label}
               </Link>
             );

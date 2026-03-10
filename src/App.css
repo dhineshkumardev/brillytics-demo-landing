@@ -52,9 +52,7 @@
   font-size: 0.9rem;
   color: var(--text-muted) !important;
   background: var(--bg-card);
-  border-radius: 100px;
-  border: 1px solid var(--border);
-  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 .nav-link.nav-pill:hover {
   color: var(--text) !important;
@@ -62,22 +60,11 @@
 }
 .nav-link.nav-pill.active {
   color: var(--text) !important;
-  border-color: var(--border);
-}
-
-.nav-dot {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  background: transparent;
-  border: 1.5px solid var(--text-muted);
-  transition: background 0.2s, border-color 0.2s;
-}
-.nav-link.nav-pill.active .nav-dot {
-  background: var(--accent);
-  border-color: var(--accent);
+  /* background: color-mix(in srgb, var(--accent) 12%, var(--bg-card)); */
+  border: none;
+  border-bottom: 3px solid var(--accent);
+  border-radius: 0px;
+  box-shadow: none;
 }
 
 .nav-cta {
